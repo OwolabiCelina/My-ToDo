@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: linear-gradient(-45deg, rgb(11, 9, 43), rgb(0, 76, 99), rgb(8, 8, 46));
+    background-size: 400%;
+    animation: gradient 5s ease infinite;
+    text-align: center;
+    color: white;
+    min-height: 100vh;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.button24{
+    background: linear-gradient(-45deg, rgb(0, 76, 99), rgb(80, 80, 180));
+    /* color: rgba(0, 0, 0, 0.521); */
+}
