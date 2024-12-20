@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
-import Item from './components/item';
-import Form from './components/form';
+import Item from './components/Item';
+import Form from './components/Form';
 
 function App() {
   const [userTasks, setUserTasks] = useState([])
